@@ -1,14 +1,14 @@
 apiVersion: carto.run/v1alpha1
 kind: Workload
 metadata:
-  name: ai-tap-demo
+  name: ai-tap-demo2
   labels:
     apps.tanzu.vmware.com/workload-type: web
-    app.kubernetes.io/part-of: ai-tap-demo
+    app.kubernetes.io/part-of: ai-tap-demo2
     apps.tanzu.vmware.com/has-tests: "true"
 spec:
   source:
     git:
-      url: https://github.com/fklein82/tap-ai-demo.git
+      url: https://github.com/fklein82/tap-ai-demo-2.git
       ref:
         branch: main
